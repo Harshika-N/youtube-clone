@@ -1,9 +1,13 @@
 YouTube Clone (Frontend + YouTube API)
 
-A fully responsive YouTube Clone built using modern frontend technologies and integrated with the official YouTube Data API.
+A fully responsive YouTube Clone built using modern frontend technologies and integrated with the official YouTube Data API v3.
+
+This project replicates core YouTube functionalities including category-based browsing, real-time search, and dynamic video recommendations.
 
 Features
 Home Page Categories
+
+Browse videos by different categories:
 
 Blogs
 
@@ -27,17 +31,25 @@ Search Functionality
 
 Real-time video search
 
-Fetches results directly from YouTube API
+Fetches results directly from YouTube Data API
 
-Displays thumbnails, title, channel name, and publish date
+Displays:
+
+Video thumbnails
+
+Title
+
+Channel name
+
+Publish date
 
 Recommended Section
 
-Shows recommended videos
+Displays recommended videos
 
-Updates dynamically based on selected video
+Updates dynamically based on the selected video
 
-Similar to actual YouTube recommendation logic
+Mimics YouTube's recommendation logic
 
 Responsive UI
 
@@ -47,13 +59,15 @@ Clean video grid layout
 
 Sidebar category navigation
 
+Optimized for both desktop and mobile devices
+
 Tech Stack
 
-HTML
+HTML5
 
-CSS
+CSS3
 
-JavaScript
+JavaScript (ES6+)
 
 YouTube Data API v3
 
@@ -61,22 +75,27 @@ Key Functionalities
 
 API fetching using async/await
 
-Dynamic routing 
+Dynamic routing
 
 Category-based filtering
 
 Search query handling
 
-Video player embedding
+Embedded video player
 
-Recommended videos logic
+Dynamic recommended videos logic
 
 Future Improvements
 
 Add user authentication
 
-Add dark/light mode toggle
+Implement dark/light mode toggle
 
-Implement infinite scrolling
+Add infinite scrolling
 
 Improve recommendation algorithm
+
+Author
+
+Harshika N
+
